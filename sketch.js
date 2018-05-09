@@ -1,8 +1,3 @@
-// Daniel Shiffman
-// http://codingtra.in
-// http://patreon.com/codingtrain
-// Code for: https://youtu.be/QHEQuoIKgNE
-
 var circles;
 var spots;
 var minRadius = 10;
@@ -52,7 +47,7 @@ function draw() {
         count++;
       }
       attempts++;
-      if (attempts > 1000) {
+      if (attempts > 10000) {
         hasFinishedText = true;
         break;
       }
