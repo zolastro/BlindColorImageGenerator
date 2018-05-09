@@ -1,4 +1,5 @@
 var textColors = ["#CA9C7F", "#FBBF66", "#FDC168", "#EEAC80", "#E68A53", "#FCC87E", "#C09770", "#F5BF73"];
+// var textColors = ["blue"];
 var backgroundColors = ["#919349", "#E1D270", "#ACAF66", "#A6AA95", "#96994A", "#B8C090", "#CED4AD", "#DFD67F"]
 function TextCircle(x, y) {
   this.x = x;

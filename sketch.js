@@ -3,10 +3,11 @@ var spots;
 var minRadius = 10;
 var hasFinishedText = false;
 function preload() {
-  img = loadImage("assets/2017.png");
+  img = loadImage("assets/20.png");
 }
 
 function setup() {
+  console.log(img);
   createCanvas(img.width, img.height);
   var density = displayDensity();
   pixelDensity(1);
@@ -29,6 +30,7 @@ function setup() {
   console.log("pixels", img.pixels.length);
   console.log("spots", spots.length);
   console.log(density)
+
 }
 
 function draw() {
